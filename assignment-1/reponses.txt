@@ -1,9 +1,9 @@
-How is the web different than the internet?
+The internet is a physical communication system made up of independently operated networks. The web is a a way of accessing information through the internet.
 
-Briefly describe how the internet works. ("Magic.")
+The way the internet works is through one sturdy underground wire connecting all continents and millions of computers worldwide. Servers are connected directly to the internet, which contain web files on the server’s hard drives. Every server contains its own unique IP address. The computers we use are called clients, because they are not necessarily connected to the internet. We connect them through internet service providers. When information is sent between individuals it is broken down into so called packets. Packets have unique IP addresses, which are carried through routers that carry the information in pieces to the desired destination. 
 
-What is a directory, and what is its relationship to files?
+A Directory is a file system sorting structure that contains references to other computer files. Files are organized by category related files in the same directory.
 
-Why is using a VCS beneficial?
+The benefits of using VCS is that everyone on the team can freally work without interuptions, then later merge the changes accordingly. Also, VCS let's us track changes made over time 
 
-State at least one thing you found interesting this topic, or that you didn't know before.
+It is mind blowing to me that there is a long strong wired cable that connects nearly every part of the world and gives us the opportunity to communicate freely within seconds. I have never thought of the internet as a physical thing. From now on, I am a lot more aware of how I refer to the web and I can see a clear picture of how this communication between people of all parts of the world is made.
