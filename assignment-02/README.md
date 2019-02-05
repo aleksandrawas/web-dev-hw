@@ -13,6 +13,6 @@ HTML is a language used to tell a web browser how to design a page.
 
 [My Website](https://www.fotografed.com/)
 
-[My Responses](./responses/txt)
+[My Responses](./responses.txt)
 
 [My Screenshot](./images/Screenshot.png)
