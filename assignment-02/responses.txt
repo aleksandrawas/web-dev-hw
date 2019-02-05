@@ -1,0 +1,7 @@
+The Internet works by chopping data into chunks called packets. Each packet then moves through the network in a series of hops. Each packet can carry a maximum of 1,500 bytes. Around these packets is a wrapper with a header and a footer. The information contained in the wrapper tells computers what kind of data is in the packet, how it fits together with other data, where the data came from and the data's final destination.
+
+DNS is a system that provides an association of IP addresses and host records. IP addresses provide identity and location info. This information is needed for data to travel between to internet connected hosts.
+
+A cookie is a small piece of data sent from a website and stored on the user's computer by the user's web browser while the user is browsing.
+
+The protocol, domain and the path are the three basic parts of the URL.
