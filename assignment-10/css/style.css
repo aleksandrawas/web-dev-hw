@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bree Serif Regular'), local('BreeSerif-Regular'), url(https://fonts.gstatic.com/s/breeserif/v8/4UaHrEJCrhhnVA3DgluA96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+@font-face {
+  font-family: 'Noto Serif TC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Serif TC'), local('NotoSerifTC-Regular'), url(https://fonts.gstatic.com/s/notoseriftc/v2/XLYgIZb5bJNDGYxLBibeHZ0BhnIET3FsCN0FAgvgEq4qZwtrwBrhpwcyws-Z2oxkXLqzDtbj3psk.31.woff2) format('woff2');
+  unicode-range: U+8dcf-8dd0, U+8dd6-8dd7, U+8dda-8ddb, U+8de3-8de4, U+8de9, U+8deb-8dec, U+8df1, U+8df5-8df7, U+8dfa-8dfd, U+8e05, U+8e08-8e0a, U+8e0e, U+8e14, U+8e16, U+8e18, U+8e1d-8e21, U+8e23, U+8e26-8e28, U+8e2a-8e2b, U+8e2d-8e2e, U+8e30-8e31, U+8e34-8e35, U+8e39, U+8e3c-8e3d, U+8e40-8e42, U+8e44, U+8e47, U+8e49-8e4e, U+8e50, U+8e53-8e55, U+8e59-8e5b, U+8e60, U+8e62-8e63, U+8e66-8e67, U+8e69, U+8e6c-8e6d, U+8e6f, U+8e72, U+8e74, U+8e76, U+8e7a-8e7c, U+8e81-8e82, U+8e84-8e85, U+8e87, U+8e89-8e8b, U+8e8f-8e95, U+8e99-8e9a, U+8e9d-8e9e, U+8ea1, U+8ea3, U+8ea5-8ea6, U+8eaa, U+8eac-8ead, U+8eaf-8eb1, U+8eb9, U+8ebc, U+8ebe, U+8ec0, U+8ec6, U+8ecb, U+8ecf, U+8ed1, U+8ed4, U+8ed7, U+8eda-8edb, U+8ee2, U+8ee8, U+8eeb, U+8ef2, U+8ef9-8efe, U+8f05, U+8f07-8f08, U+8f0a-8f0c, U+8f12-8f13, U+8f17, U+8f19-8f1a, U+8f1c, U+8f1e-8f1f, U+8f25;
+}
+
+
+html {
+  font-family: 'Noto Serif TC', serif;
+  font-size:12pt;
+  letter-spacing: normal;
+  padding: 20px 20px 20px 100px;
+}
+
+h1 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 2em;
+}
+
+h2, cite {
+  font-family: 'Noto Serif TC', sans-serif;
+  font-size: 2em;
+  font-style: italic;
+  padding-bottom: 5%;
+}
+
+p  {
+  line-height: 1.5em;
+  padding: 2px;
+  text-indent: 1em;
+}
+
+div{
+  background: #E0E0E0;
+  margin: auto;
+  width: 85%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.main-content {
+  width: 50%;
+  height: auto;
+}
+
+.main-content p:first-child::first-letter {
+  font-family: 'Noto Serif TC', serif;
+  font-size:6em;
+}
+
+.main-content p:first-child::first-line {
+  font-style: italic
+}
+
+a:link{
+  color: rgb(255, 0, 0);
+}
+
+a:hover{
+  color:rgb(255, 0, 0);
+}
+
+a:visited{
+  color: rgb(155, 0, 0);
+}
+
+.special {
+  font-family: 'Noto Serif TC', serif;
+  letter-spacing: .35em;
+}
