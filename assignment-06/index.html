@@ -3,28 +3,63 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta name="description" content=" Target // Missoula, MT.">
+    <meta name="description" content=" Target | Missoula, MT">
     <meta name="author" content="Aleks Was">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Target</title>
-    <style>
-    table, th, td {
-      border: .5px solid red;
-      padding: 2.5px; }
-    h1 {color: red}
-</style>
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
 
-  <body>
-    <h1>Target</h1>
-    <address>
+    <title>Target</title>
+
+<!-- Style -->
+
+<style>
+
+    #center-wrapper {
+    position: relative;
+    text-align: center;
+    color: #5a0404;
+    }
+
+    table, th, td {
+      border: .2px dotted white;
+      padding: 5px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    h2 {color: red;
+    }
+
+</style>
+</head>
+
+<!-- Body -->
+
+    <body id="center-wrapper">
+<hr>
+
+<!-- Target Logo-->
+
+      <img src="images/target.jpg" alt="Target Logo" width="250" height="200">
+
+<!-- Address -->
+      <address><center>
       2420 N Reserve St</br>
       Missoula, MT 59808</br>
       (406)543-4000</br>
-    </address>
-        <a href="mailto: guest.service@target.com">guest.service@target.com</a>
-    <h2>We're Open</h2>
-    <table>
+      </center>
+      </address>
+<hr>
+
+<!-- Table -->
+
+<h2><center>HOURS OF OPERATION </center></h2>
+
+    <table bgcolor="#f2c5c5">
        <tr>
           <th></th>
           <th scope="col">Monday</th>
@@ -35,6 +70,7 @@
           <th scope="col">Saturday</th>
           <th scope="col">Sunday</th>
        </tr>
+
        <tr>
           <th scope="row">Opens</th>
           <td>8AM</td>
@@ -45,6 +81,7 @@
           <td>8AM</td>
           <td>8AM</td>
        </tr>
+
        <tr>
           <th scope="row">Closes</th>
           <td>10PM</td>
@@ -56,21 +93,33 @@
           <td>10PM</td>
        </tr>
     </table>
-    <h2>Subscribe To Our Newsletter</h2>
-    <form action="http://www.example.com/login.php" method="post" id="comments" class="basic-forms">
-      <p>
-        Name</br>
-        <input type="text" name="name" id="name_input"/> </br></br>
-        Email</br>
-        <input type="text" name="email" id="email_input" placeholder="example@gmail.com"/> <br>
-        <br>
-        Comments or Feedback</br>
-        <textarea name="comments" id="comments-textarea" maxlength="500" cols="90" rows="4">Enter up to 500 characters...</textarea>
-        </br>
-        </br>
-        <input type="image" src= "images/submit.png"
-   width="90" height="50" />
-      </p>
+
+<!-- Form -->
+
+    <h2><center>Subscribe For Discounts</center></h2>
+
+    <form action="/action_page.php">
+First name: <input type="text" name="FirstName" placeholder="Aleks"><br>
+Last name: <input type="text" name="LastName" placeholder="Williams"><br>
     </form>
+    </br>
+
+<!-- Email input -->
+
+      <a href="mailto: guest.service@target.com"> EMAIL US</a>
+      </br>
+      <input type="text" name="email" id="email_input" placeholder="example@gmail.com"/> <br>
+
+
+<!-- Text input -->
+
+<h2>Comments or Feedback</h2>
+      <textarea name="comments" id="comments-textarea" maxlength="500" cols="90" rows="4" > In 500 words, tell us what you like about us...</textarea>
+      </br>
+      </br>
+
+<!-- Submit Button -->
+
+      <input type="image" src="images/submit.png" align="middle" width="90" height="50">
 
   </body>
