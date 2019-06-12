@@ -1,57 +1,29 @@
 body{
   margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 h1{
   color: rgb(122, 45, 47);
   font-size: 3em;
   margin-left: auto;
-    margin-right: auto;
-}
-
-p{
-  margin-top; 5px;
-  padding: 2px;
-}
-
-footer{
-  border: solid .5px;
-  border-radius: 200px;
-  padding: 12px;
-  min-width: 50px;
-  max-width: 200px;
-  overflow: hidden;
-  bottom: 150px;
-  background-color: #ae7d93;
-  position: absolute;
-top: auto; left: 650px;
-}
-
-footer:hover{
-  background-color: grey;
-}
-
-body {
-  text-align: center;
-  padding: dotted 10px;
-  border: 1px #ae7d93;
+  margin-right: auto;
 }
 
 .main-container {
-  border: 4px dotted #ae7d93
-
+  border: 1px dotted #ae7d93;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .second-container {
-  border: 10px;
   width: 750px;
-  border-color: #ae7d93;
   border-radius: 50px;
   margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 }
-
 
 /* 10 boxes */
 
@@ -103,10 +75,6 @@ background-color: #c4c8c9;
 margin: 0 .5% 25px .5%;
 }
 
-.float .square-6 {
-    float: bottom;
-}
-
 #rectangle-7 {
 float: left;
 height: 70px;
@@ -137,4 +105,15 @@ height: 70px;
 width: 140px;
 background-color: #83446f;
 margin: 0 .5% 25px .5%;
+}
+
+
+footer {
+  position: relative;
+  top: 200px;
+  right: 525px;
+}
+
+p:hover{
+  color: #ae7d93;
 }
